@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Scrolling Text</string>
+    <string name="article_title">Pareto Principle</string>
+    <string name="article_subtitle">Description of 80/20 rule called Pareto Principle</string>
+    <string name="article_text">The <b>Pareto principle</b> (also known as the 80/20 rule, the law of the vital few, or the principle of factor sparsity) states that, for many events, roughly 80% of the effects come from 20% of the causes.
+Management consultant Joseph M. Juran suggested the principle and named it after Italian economist <i>Vilfredo Pareto</i>, who noted the 80/20 connection while at the University of Lausanne in 1896, as published in his first work, Cours d\'économie politique.
+Essentially, Pareto showed that approximately 80% of the land in Italy was owned by 20% of the population.
+\nIt is an axiom of business management that \"80% of sales come from 20% of clients\".
+Richard Koch authored the book, The 80/20 Principle, which illustrated some practical applications of the Pareto principle in business management and life.
+\nMathematically the 80/20 rule is roughly followed by a power law distribution (also known as a <i>Pareto distribution</i>) for a particular set of parameters, and many natural phenomena have been shown empirically to exhibit such a distribution.
+\nThe Pareto principle is only tangentially related to Pareto efficiency. Pareto developed both concepts in the context of the distribution of income and wealth among the population.
+\n\nIn computer science the Pareto principle can be applied to optimization efforts.
+For example, Microsoft noted that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in a given system would be eliminated.
+\nLowell Arthur expressed that "20 percent of the code has 80 percent of the errors. Find them, fix them!"
+It was also discovered that in general the 80% of a certain piece of software can be written in 20% of the total allocated time.
+Conversely, the hardest 20% of the code takes 80% of the time. This factor is usually a part of COCOMO estimating for software coding.
+\n\nSource: https://en.wikipedia.org/wiki/Pareto_principle
+    </string>
+    <string name="add_comment">Add Comment</string>
+</resources>

@@ -22,7 +22,22 @@ public class MainActivity extends AppCompatActivity {
         mShowCount = (TextView) findViewById(R.id.show_count);
         zeroButton = findViewById(R.id.button_zero);
         countButton = findViewById(R.id.button_count);
+        if (savedInstanceState != null) {
+            mShowCount.setText(savedInstanceState.getString("current_number"));
+            setmCount(mShowCount);
+        }
         colorCheck();
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("current_number", Integer.toString(mCount));
+    }
+
+    public void setmCount(TextView value) {
+        // Change internal counter variable to the one set in counter TextView
+        mCount = Integer.parseInt(value.getText().toString());
     }
 
     public void showToast(View view) {
